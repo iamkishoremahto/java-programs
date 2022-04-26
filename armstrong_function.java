@@ -3,10 +3,15 @@ public class armstrong_function{
     public static boolean isarmstrong(int num){
         int temp=num,pow=0,sum=0;
         int temp1=num;
+
+        // Calculating number of digits
+
         while(temp>0){
             pow++;
             temp=temp/10;
         }
+
+        // finding is armstrong or not
 
         while(temp1>0){
             int position=temp1%10;
@@ -23,6 +28,7 @@ public class armstrong_function{
 
     }
 
+        // Main method
     public static void main(String args[]){
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number : ");
