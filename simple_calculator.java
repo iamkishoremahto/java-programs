@@ -3,8 +3,6 @@ public class simple_calculator {
 
     static Scanner sc=new Scanner(System.in);
 
-    
-    
         static int a(){
             System.out.println("Enter the value of a : ");
             int a=sc.nextInt();
@@ -16,10 +14,7 @@ public class simple_calculator {
             int b=sc.nextInt();
             return b;
         }
-        
-      
-
-    
+   
 
     public static void main(String args[]){
         int a=0,b=0,result;
